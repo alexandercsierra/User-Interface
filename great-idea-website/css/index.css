@@ -66,7 +66,13 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 * {
-	border: solid grey 1px !important;
+	border: solid red 1px !important;
+	max-width: 100%;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
 }
 
 nav {
@@ -93,19 +99,27 @@ nav a {
 }
 
 .title {
-	width: 40%;
-	display: inline-block;
+
 
 }
 
-.codeimg {
-	width: 40%;
+.codeImg {
+	margin:0;
 }
 
 .banner {
-	/* padding: 50px 0; */
-	padding: 0;
+	padding:0;
+	width: 100%;
+}
+
+.bannerParts {
+	padding: 0px;
 	text-align: center;
+	display: inline-block;
+	width: 40%;
+	margin: 0px;
+	height: 100%;
+	vertical-align: middle;
 
 }
 
@@ -121,8 +135,8 @@ button {
 	margin: 10px auto;
 }
 
-section {
-	border-top: 2px solid black;
+hr {
+	width: 90%;
 }
 
 .upperContent {
@@ -131,8 +145,18 @@ section {
 	padding: 20px;
 }
 
+.centerImg {
+	text-align: center;
+	margin: 20px 0;
+}
+
 .lowerContent {
 	display: inline-block;
-	width: 25%;
-	padding: 20px;
+	width: 24%;
+}
+
+.copyright {
+	font-size: 13px;
+	text-align: center;
+	margin: 60px auto;
 }
