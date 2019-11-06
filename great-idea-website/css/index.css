@@ -54,13 +54,138 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    /* font-family: 'Bangers', cursive; */
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+* {
+	/* border: solid red 1px !important; */
+	max-width: 100%;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.topDiv {
+	text-align: center;
+	background: #034058;
+	width: 80%;
+	
+}
+
+.navDiv{
+	width: 70%;
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.logoDiv {
+	width: 20%;
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+nav {
+	margin: 10px;
+	text-align: center;
+	width: 70%;
+	padding: 0;
+	display:inline-block;
+}
+
+nav a {
+	margin: 3%;
+	color: grey;
+	text-decoration: none;
+	font-size: 15px;
+	width: 10%;
+	display: inline-block;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 80%;
+  }
+
+.codeimg {
+	margin:0;
+	width: 90%;
+}
+
+.banner {
+	padding:0;
+	width: 100%;
+	text-align: center;
+	margin: 50px auto;
+	margin-top: 130px;
+}
+
+.bannerParts {
+	padding: 0px;
+	text-align: center;
+	display: inline-block;
+	width: 40%;
+	margin: 0px;
+	height: 100%;
+	vertical-align: middle;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 75px;
+}
+
+button {
+	background: white;
+	border: 2px solid grey;
+	padding: 5px 30px;
+	margin: 10px auto;
+}
+
+hr {
+	color: black;
+	height: 3px;
+	background-color: black;
+}
+
+.upperContent {
+	display: inline-block;
+	width: 49%;
+	padding: 20px;
+}
+
+.centerImg {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.lowerContent {
+	display: inline-block;
+	width: 30%;
+	padding: 20px 10px;
+	margin-left: 20px;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+.copyright {
+	font-size: 13px;
+	text-align: center;
+	margin: 60px auto;
+}
